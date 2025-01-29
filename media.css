@@ -5,12 +5,33 @@
   box-sizing: border-box;
 }
 
+.signinContainer {
+  padding-right: 20px;
+  text-align: right;
+  pointer-events: auto;
+}
+
+.signinLink {
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  background-color: rgba(85, 88, 97, 0.644);
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
 /* Body styling */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
-  padding: 20px;
+  padding-top: 20px;
+ 
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 /* Header styling */
@@ -80,13 +101,20 @@ video {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.audio {
+  margin-bottom: 5rem;
+}
+
 /* Footer styling */
 footer {
   text-align: center;
-  padding: 20px;
-  background-color: #333;
+  padding: 10px;
+  background-color: #333333a4;
   color: #fff;
   margin-top: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 /* Media Queries for Responsiveness */
