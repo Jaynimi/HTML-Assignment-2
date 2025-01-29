@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Something Inspiring</title>
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <header>
+      <h1>A Letter to Jay</h1>
+    </header>
+
+    <section class="message">
+      <div class="image-container">
+        <!-- Responsive Images using <picture> -->
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="assets/images/image2.jpg"
+          />
+          <source
+            media="(max-width: 1024px)"
+            srcset="assets/images/image1.jpeg"
+          />
+          <source
+            media="(min-width: 1025px)"
+            srcset="assets/images/image3.jpg"
+          />
+          <img
+            src="assets/images/image2.jpg"
+            alt="A professional image of me"
+          />
+        </picture>
+      </div>
+
+      <div class="content">
+        <h2>Dear me,</h2>
+        <p>
+          As Michelle Obama has shown through her journey, I too can rise above
+          challenges, break barriers, and carve my own path. She once said,
+          "Your story is what you have, what you will always have. It is
+          something to own." Just as she embraced her story with confidence, I
+          will embrace mine—fully, unapologetically, and with purpose.
+        </p>
+        <p>
+          She turned obstacles into stepping stones, proving that resilience and
+          hard work can open doors once thought impossible. If she could use her
+          voice to inspire change, I too can use my skills and passion to make
+          an impact. Whether in technology, design, or the challenges ahead, I
+          have the power to create, to lead, and to inspire others.
+        </p>
+        <p>
+          Like Michelle, I refuse to be limited by expectations. I will keep
+          learning, keep pushing, and keep striving for excellence—because I am
+          capable, I am strong, and I am becoming everything I am meant to be.
+        </p>
+      </div>
+    </section>
+
+    <!-- Responsive Video Section -->
+    <section class="video-section">
+      <video autoplay muted loop playsinline>
+        <source src="assets/videos/video1.mp4" media="(max-width: 600px)" />
+        <source src="assets/videos/video2.mp4" media="(max-width: 1024px)" />
+        <source src="assets/videos/video3.mp4" media="(min-width: 1025px)" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- Responsive Audio Section (Plays on Load) -->
+    <audio autoplay controls loop>
+      <source src="assets/audio/audio1.mp3" media="(max-width: 600px)" />
+      <source src="assets/audio/audio1.mp3" media="(max-width: 1025px)" />
+      <source src="assets/audio/audio2.mp3" media="(min-width: 1024px)" />
+
+      Your browser does not support the audio element.
+    </audio>
+
+    <footer>
+      <p>© 2025 EyesLikeJay. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

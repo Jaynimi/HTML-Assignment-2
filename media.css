@@ -1,0 +1,133 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+/* Message section styling */
+.message {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+/* Image container for responsive images */
+.image-container {
+  flex: 1;
+  max-width: 400px;
+  margin-right: 20px;
+}
+
+picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Content area styling */
+.content {
+  flex: 2;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Video Section Styling */
+.video-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+video {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  margin-top: 50px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .message {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .image-container {
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
+
+  h1 {
+      font-size: 2rem;
+  }
+
+  h2 {
+      font-size: 1.5rem;
+  }
+
+  p {
+      font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+      font-size: 1.8rem;
+  }
+
+  h2 {
+      font-size: 1.2rem;
+  }
+
+  p {
+      font-size: 0.9rem;
+  }
+
+  video {
+      max-width: 100%;
+  }
+}

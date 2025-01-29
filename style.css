@@ -1,0 +1,82 @@
+.signinContainer {
+    padding: 20px;
+    text-align: right;
+    pointer-events: auto;
+}
+
+.signinLink {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    background-color: rgba(85, 88, 97, 0.644);
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    text-align: left;
+}
+
+#coursesHeader {
+    /* text-align: center;  */
+}
+
+table th, table td {
+    padding: 10px;
+}
+
+
+thead th {
+    text-align: center;
+}
+
+
+/* Table caption styling */
+.table caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+  /* Table headers styling */
+.table th {
+    background-color: #6aa16ca4;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+  /* Table body cell styling */
+.table td {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+  /* Row hover effect */
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+.table th[scope="row"] {
+    background-color: #7c67677a;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+@media (max-width: 768px) {
+    .table {
+      font-size: 0.9rem; /* Reduce font size for smaller screens */
+    }
+}
